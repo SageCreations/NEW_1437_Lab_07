@@ -43,9 +43,9 @@ void patientType::print() {
     std::cout << "\nDoctor's Name  : " << doctorName;
     std::cout << "\nDOB            : ";
     DOB.showDate1();
-    std::cout << "\nDate of Admit  : ";
+    std::cout << "Date of Admit  : ";
     admitDate.showDate1();
-    std::cout << "\nDate of Release: ";
+    std::cout << "Date of Release: ";
     dischargeDate.showDate1();
 } //*******************************************************
 

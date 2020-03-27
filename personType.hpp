@@ -65,9 +65,9 @@ class patientType: public personType
   public:
     patientType(std::string first = "", std::string last = "", int a = 0,
                 int ID = 0, std::string dn = "");
-    void setDOB(int m, int d, int y);
-    void setadmitDate(int m, int d, int y);
-    void setdischargeDate(int m, int d, int y);
+    void setDOB(int, int, int);
+    void setadmitDate(int, int, int);
+    void setdischargeDate(int, int, int);
 
     int getID() const;
     void print();

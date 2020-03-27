@@ -139,7 +139,7 @@ void Date::getDate()
 }
 
 
-int main()
+/*int main()
 {
     Date newDate(3, 20, 1928); //Happy Birthday Fred Rogers!
    
@@ -158,5 +158,5 @@ int main()
     newDate.showDate3();
 
     return 0;
-}
+}*/
 
